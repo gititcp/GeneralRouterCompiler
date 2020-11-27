@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.gititcp'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.auto.service:auto-service:1.0-rc3'
+    compile 'com.squareup:javapoet:1.8.0'
+    compile 'com.github.Lvluffy:GeneralRouterAnnotation:1.0.3'
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
